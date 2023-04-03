@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--white);
+  font-family: "Poppins", sans-serif;
+  background-color: var(--black);
+}
+
+:root {
+  --white: #ffffff;
+  --blue: #14ff00;
+  --green: #00ff47;
+  --red: #ff0000;
+  --black: #595959;
+  --bluee: #00092a;
+}
+
+.abc {
+  display: flex;
+  align-items: center;
+}
+
+.main {
+  justify-content: space-evenly;
+  margin-top: 33px;
+}
+
+ul li {
+  list-style-type: none;
+  margin-left: 40px;
+}
+
+.paragraph {
+  margin: 80px 0 0 100px;
+}
+
+.paragraph p:last-child {
+  margin-top: 20px;
+}
+
+.paragraph p span:first-child {
+  color: var(--blue);
+}
+
+.paragraph p span:last-child {
+  color: var(--red);
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: 65px 0 0 100px;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 8px;
+}
+
+.table tr td .img {
+  position: relative;
+  right: 23px;
+}
+
+.btn {
+  text-align: center;
+}
+
+.btn a button {
+  background: linear-gradient(90deg, #3dd8ee 0%, #0997e8 100%);
+  border-radius: 8px;
+  width: 200px;
+  height: 60px;
+  border: none;
+  margin-top: 57px;
+  font-size: 24px;
+  color: var(--white);
+}
+.countries {
+  justify-content: space-evenly;
+  margin-top: 80px;
+  /* height: 651px; */
+  padding: 30px 0 35px 0;
+  background-color: var(--bluee);
+}
+
+.para {
+  margin-left: 14%;
+}
+
+.para .special {
+  margin-top: 25px;
+}
+
+.clarityy {
+  margin-top: 35px;
+}
+
+.text {
+  margin-left: 27px;
+}
+
+.para p {
+  margin-top: 3px;
+  width: 65%;
+}
+
+.imgg {
+  height: 80px;
+  width: 80px;
+  background-color: #0f1535;
+}
+
+.imgg img {
+  position: relative;
+  top: 30px;
+  left: 23px;
+}
+
+.third-section {
+  margin-top: 80px;
+  padding-bottom: 50px;
+}
+
+.portfolio {
+  height: 450px;
+  width: 530px;
+  margin-right: 19%;
+  border-radius: 50px;
+  background: linear-gradient(
+    180.04deg,
+    rgba(4, 19, 52, 0.78) -3.16%,
+    rgba(15, 37, 84, 0.62) 99.42%
+  );
+  border: 2px solid #142346;
+  backdrop-filter: blur(1px);
+  line-height: 2;
+}
+
+.portfolio h4 {
+  position: relative;
+  top: 30px;
+  text-align: center;
+}
+
+.bit {
+  justify-content: space-evenly;
+  position: relative;
+  top: 50px;
+}
+
+.portfolio h4 span {
+  color: var(--green);
+}
+
+.heading-side h3 {
+  margin-left: 100px;
+  font-size: 36px;
+  width: 54%;
+}
+
+.heading-side p {
+  margin: 5px 0 0 140px;
+  width: 52%;
+}
+
+.buy {
+  margin: 30px 0 0 100px;
+}
+
+.buy h4 {
+  margin-left: 15px;
+}
+
+.footer1 {
+  background-color: var(--bluee);
+  width: 100%;
+  padding: 35px 0 35px 0;
+  justify-content: space-evenly;
+}
+
+.footer1 .line1 {
+  position: relative;
+  bottom: 130px;
+}
+
+.footer1 .line1 p {
+  position: relative;
+  top: 20px;
+}
+
+.footer1 .line3 {
+  position: relative;
+  bottom: 43px;
+}
+
+.footer1 .line4 {
+  position: relative;
+  bottom: 18px;
+}
+
+.footer1 .line3 ul {
+  position: relative;
+  right: 40px;
+  line-height: 3;
+}
+
+.footer1 .line4 ul {
+  position: relative;
+  right: 40px;
+  line-height: 3;
+}
+
+.footer1 .line1 p {
+  width: 42%;
+}
+
+.footer1 .line2 ul {
+  position: relative;
+  right: 38px;
+  line-height: 3;
+}
+
+.footer2 {
+  background-color: var(--black);
+  height: 30px;
+  position: relative;
+  top: 15px;
+  text-align: center;
+}
+
+.lastt{
+  display: none;
+}
+
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+  .countries,
+  .footer1, .third-section {
+    flex-direction: column;
+  }
+
+  .third-section .portfolio{
+    width: 295px;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .map img {
+    height: 300px;
+    width: 300px;
+  }
+
+  .para {
+    margin-top: 70px;
+  }
+
+  .table {
+    position: relative;
+    right: 69px;
+    font-size: 10px;
+  }
+
+  .paragraph p {
+    position: relative;
+    right: 50px;
+  }
+
+  .clarityy {
+    position: relative;
+    right: 15px;
+  }
+
+  .imgg {
+    width: 180px;
+  }
+
+  .heading-side {
+    position: relative;
+    right: 70px;
+  }
+
+  .line1 {
+    padding-top: 115px;
+  }
+
+  .line2, .line3{
+    position: relative;
+    right: 57px;
+  }
+
+  .line3,
+  .line4 {
+    position: relative;
+    top: 20px;
+  }
+
+  .line4 {
+    right: 80px;
+  }
+
+  .middle, .last{
+    display: none;
+  }
+
+  .lastt{
+    display: block;
+    position: relative;
+    left: 20px;
+  }
+
+  td img{
+    display: none;
+  }
+
+  .first img{
+    width: 200px;
+  }
+
+  .middle ul{
+    background-color: var(--white);
+    color: var(--black);
+    flex-direction: column;
+    position: relative;
+    top: 35px;
+    right: 5px;
+  }
+}
